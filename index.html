@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hearing Pairs</title>
+    <link rel="stylesheet prefetch" 		
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Hearing Pairs</h1>
+        </header>
+
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        		<li><i class="fa fa-star"></i></li>
+        	</ul>
+
+        	<span class="moves">0</span> Move(s)
+
+            <div class="timer">
+            </div>
+
+            <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck" id="card-deck">
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="bolt" >
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="card match" type="anchor">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="diamond">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card" type="leaf">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="card" type="bomb">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="card open show" type="bolt">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="card" type="bicycle">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="card" type="plane">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card" type="cube">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+        <div class="section">
+        	<header>
+        		<h1>User Research</h1>
+        			<p>This is a section that I'd lie to dedicate to research I found out after testing the application. I feel like that would be better suited in this section because there isn't much information out there apart from discussing this is a brain game and brain games are beneficial in keeping the mind active. These kinds of games are helpful for increasing memory and concentration. I wanted to add the extra auditory element to make it a but more challenging.</p>
+        	</header>
+        </div>
+        <hr>
+        <div class="section">
+        	<header>
+        		<h1>Project Summary</h1>
+        			<p>This project is a memory matching game and its purpose it to test the strength of peoples' memory. With eight different pairs of graphics the user must locate and match the correct corresponding cards. The game has a timer that counts the amount of time the user is using the application as well as a "moves" counter that tracks the numbers of card matching moves they make. This is a simple game that is helpful to strengthen memory as well as test hearing which is something that fades with age. It helps keep your brain sharp and be more aware of sensing sounds. I've provided more details in the "Project Proposal," which is located below. </p>
+	<p>For my three extras I have chosen to focus on CSS animations for the card flips, a timer, and while not in the first prototype, cookies. As you will see when playing the game, when you click a card it flips. If two cards don't match they turn red and flip back over. But when two cards match they turn over, pulse, and stay visible. There is also a timer that is placed above the board game that tracks the amount of time a player is using the application. It includes both minutes and seconds. I intend to include the third extra in the final which will be cookies. This will be implemented through having the user enter their name before being able to play.  </p>
+        	</header>
+        </div>
+         <hr> 
+        
+        <div class="section">
+        	<header>
+        		<h1>Proposal</h1>
+        	</header>			
+				<h4>Project Synopsis</h4>
+<p>• For the final project I’ve decided to create an application that is a game but also a
+helpful tool in testing for an individual’s hearing ability. The tentative name for this
+project is called “Hearing Pairs,” a matching-memory game that tests the strength
+of someone’s hearing using animated blocks that emit a sound and the user has
+to locate the twin block emitting the same sound. </p>
+User Profile
+</p>• Those who would most benefit from this would be individuals who might be
+thinking they have problems with hearing. For the most part those people are
+mostly older. I’d say this would be most helpful for those who are 55+ in age.
+As people get older they start having problems with memory and hearing. This
+test would help identify if the user needs to seek out professional help if they fail
+to match up the correct blocks/sounds. It’s supposed to strengthen the
+individual’s memory as well, since the tests requires them to remember what and
+where was the last block they clicked. </p>
+<h4>Requirements</h4>
+<h5>• Four sections</h5>
+<p>o I intend to have one dedicated to the project summary, the
+application prototype, user testing/research, and the proposal.
+Some of these features might change depending on if they end up
+being too challenging but all the requirements will be met.</p>
+
+<h5>• JavaScript/jQuery</h5>
+
+<p>o Other features of the game will use functions and conditional
+statements to reveal card images and find the paired blocks.
+Functions would be used to show the card open or revealed and I’ll
+enlist a JavaScript/jQuery plugin for the layout of the webpage. The
+conditional statement will be used to define if cards match or not.</p>
+
+<h5>• Interactive</h5>
+</p>o The interactive element from this will be the user having to click on
+a block so that it reveals an image and sound.</p>
+
+<h5>• Extras</h5>
+<p>o The extras I believe I’ll be using are (1) animation on the blocks,
+(2) a timer to record the amount of time the game has been played, and
+(3) cookies which will be stored when the user first arrives to the
+page and they have to input their name.</p>
+        	
+        </div>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Congratulations</h2>
+                <a class="close" href=# >×</a>
+                <div class="content-1">
+                    What a memory!
+                </div>
+                <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    Play again 😄</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
