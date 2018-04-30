@@ -520,10 +520,11 @@ h1 {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: Tahoma, Arial, sans-serif;
 	color: #ffffff;
 	border-radius: 5px;
 }
+
 
 /* animations */
 @keyframes flipInY {
@@ -639,21 +640,6 @@ transform: scale3d(1, 1, 1);
 	}
 }
 
-
-/****** Media queries
-***************************/
-
-
-@media (max-width: 320px) {
-	.deck {
-		width: 85%;
-	}
-
-	.deck .card {
-		height: 4.7rem;
-		width: 4.7rem;
-	}
-}
 
 
 /* For Tablets and larger screens
