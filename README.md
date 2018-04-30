@@ -13,3 +13,10 @@ THE TASK!
 
 Its quite simple. Find and click on the decks of cards and locate all eight pairs. You 
 get a surprise message at the end. Watch how it tracks the moves you make. 
+
+
+UPDATE 04/30
+
+The task remains the same - to find and match all the card pairs but there is still a problem with getting the audio to work.  
+
+The Audio is not working still. Having trouble finding a solution to this problem. I've included proof of concept for the project though. You can find it within the app.js code that calls the functions to play the audio as while as the html code within each card of the deck. 
