@@ -1,3 +1,54 @@
+// Play Sounds
+function playAudio(soundName) {
+	if (soundName === 'Soundsbite/airplane.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/airplane.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/marbles.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/drum.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/heartbeat.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/waves.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/wind.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+function playAudio(soundName) {
+	if (soundName === 'Soundsbites/iceskating.mp3') {
+		var audio = new Audio(soundName);
+		audio.play();
+	}
+}
+
 // cards array holds all cards
 let card = document.getElementsByClassName("card");
 let cards = [...card]
