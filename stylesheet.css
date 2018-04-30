@@ -49,7 +49,7 @@ h1 {
 
 .deck {
 	width: 85%;
-	background: 	#f8f8ff;
+	background: 	#262626;
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
@@ -64,7 +64,7 @@ h1 {
 	height: 3.7rem;
 	width: 3.7rem;
 	margin: 0.2rem 0.2rem;
-	background: #141214;;
+	background: #e5e5e5;
 	font-size: 0;
 	color: #ffffff;
 	border-radius: 5px;
@@ -77,11 +77,9 @@ h1 {
 
 .deck .card.open {
 	transform: rotateY(0);
-	background: #02b3e4;
+	background: #91fff9;
 	cursor: default;
 	animation-name: flipInY;
-	-webkit-backface-visibility: visible !important;
-	backface-visibility: visible !important;
 	animation-duration: .75s;
 }
 
@@ -91,18 +89,14 @@ h1 {
 
 .deck .card.match {
 	cursor: default;
-	background: #E5F720;
+	background: #61f970;
 	font-size: 33px;
 	animation-name: rubberBand;
-	-webkit-backface-visibility: visible !important;
-	backface-visibility: visible !important;
 	animation-duration: .75s;
 }
 
 .deck .card.unmatched {
 	animation-name: pulse;
-	-webkit-backface-visibility: visible !important;
-	backface-visibility: visible !important;
 	animation-duration: .75s;
 	background: #e2043b;
 }
@@ -180,13 +174,13 @@ h1 {
 	width: 85%;
 	position: relative;
 	transition: all 5s ease-in-out;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Oswald', light;
 }
   
 .popup h2 {
 	margin-top: 0;
 	color: #333;
-	font-family: Tahoma, Arial, sans-serif;
+	font-family: 'Oswald', bold;
 }
 
 .popup .close {
@@ -212,8 +206,8 @@ h1 {
 }
 
 .show {
-	visibility: visible !important;
-	opacity: 100 !important;
+	visibility: visible;
+	opacity: 100;
 }
 
 #starRating li {
@@ -227,7 +221,7 @@ h1 {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Oswald', light;
 	color: #ffffff;
 	border-radius: 5px;
 }
